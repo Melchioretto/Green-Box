@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #e6f5ec, #c1e3d3);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  color: #2f855a;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  width: 300px;
+  font-size: 1.2rem;
+}
+
+.footer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
